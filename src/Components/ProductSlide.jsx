@@ -48,7 +48,7 @@ export default function ProductSlide() {
   };
 
   useEffect(() => {
-    const interval = setInterval(nextSlide, 3000); // Change slide every 3 seconds
+    const interval = setInterval(nextSlide, 10000); // Change slide every 20 seconds
     return () => clearInterval(interval); // Cleanup on unmount
   }, []);
 
@@ -62,13 +62,13 @@ export default function ProductSlide() {
     </div>
     <button 
       onClick={prevSlide} 
-      className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-lg"
+      className="absolute left-2 top-1/2 transform -translate-y-1/2  p-2 rounded-full shadow-lg"
     >
       &#10094;
     </button>
     <button 
       onClick={nextSlide} 
-      className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-lg"
+      className="absolute right-2 top-1/2 transform -translate-y-1/2  p-2 rounded-full shadow-lg"
     >
       &#10095;
     </button>

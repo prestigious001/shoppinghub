@@ -53,7 +53,7 @@ export default function Navbar() {
             <div className="flex md:hidden">
               <button
                 onClick={toggleMenu}
-                className="text-black hover:bg-gray-700 focus:outline-none mr-24"
+                className="text-black hover:bg-gray-700 focus:outline-none mr-12"
               >
                 <svg
                   className="w-6 h-6"
