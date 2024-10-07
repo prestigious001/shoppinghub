@@ -9,7 +9,7 @@ export default function Fragance() {
   return (
     <div >
         
-        <h1 className='text-lg font-semibold text-center py-1'>Fashion Deals</h1> 
+        <h1 className='text-lg font-semibold text-center py-1 mt-4'>Fashion Deals</h1> 
         <div className='overflow-x-auto whitespace-nowrap mx-4 gap-4  flex  '>
         {FragranceListing.map((item => ( 
             <div key={item.id} >

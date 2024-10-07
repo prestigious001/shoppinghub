@@ -53,7 +53,7 @@ const AllProductListing = () => {
                  {paginatedData.length > 0 ? (
                    paginatedData.map((item) => (
 
-                 <div key={item.id}  className='bg-slate-100 rounded-md w-36 p-2 my-3 flex flex-col justify-center shadow-lg relative hover:scale-105'>
+                 <div key={item.id}  className='bg-slate-100 rounded-md w-36 p-2 my-3 flex flex-col  justify-center shadow-lg relative hover:scale-105'>
                     <span className='bg-orange-100 text-orange-600 w-10   absolute right-0 top-0 font-medium flex justify-center'>{item.discount}</span>
                     <img src={item.image}className='h-20' alt="" />
                     <p className='mt-2'>{item.productdescription}</p>
@@ -69,7 +69,7 @@ const AllProductListing = () => {
         ) : (
           <p className="flex flex-col justify-center md:flex md:justify-end">
             <span className='font-mono font-semibold'>
-            Sorry you could not find your prefered Land chat us now to get your prefered Land
+            Sorry,  you could not find your prefered Item chat us now to get your prefered Item
 
             </span>
              <button className=" mt-4">
@@ -77,9 +77,9 @@ const AllProductListing = () => {
                     href="https://wa.link/q76mdk"
                     className="
                     
-                    bg-blue-950 text-white py-2 px-12
+                    bg-orange-500 text-white p-2
                     rounded-md hover:text-black
-                     hover:bg-blue-100 "
+                     hover:bg-orange-400 "
                   >
                     Chat Now 
                   </a>
@@ -94,19 +94,19 @@ const AllProductListing = () => {
           <button
             onClick={() => handlePageChange('prev')}
             disabled={currentPage === 1}
-            className={`px-2 py-1 rounded-lg ${currentPage === 1 ? 'bg-gray-300' : 'bg-blue-950 text-white hover:bg-blue-100 hover:text-black'} transition-colors`}
+            className={`px-2 py-1 rounded-lg text-xs ${currentPage === 1 ? 'bg-gray-300' : 'bg-orange-500 text-white hover:bg-orange-100 hover:text-black'} transition-colors`}
           >
             PREV
           </button>
 
-          <span className="text-gray-700">
+          <span className="text-gray-500">
              <strong className='font-mono'>Page</strong> {currentPage} of {totalPages}
           </span>
             
           <button
             onClick={() => handlePageChange('next')}
             disabled={currentPage === totalPages}
-            className={`px-2 py-1 rounded-lg ${currentPage === totalPages ? 'bg-gray-300' : 'bg-blue-950 text-white hover:bg-blue-100 hover:text-black'} transition-colors`}
+            className={`px-2 py-1 rounded-lg text-xs ${currentPage === totalPages ? 'bg-gray-300' : 'bg-orange-500 text-white  hover:text-black'} transition-colors`}
           >
             NEXT
           </button>

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { MdLocalShipping } from "react-icons/md";
+import { Typewriter } from "react-simple-typewriter";
 // import { NavLink } from "react-router-dom";
 import logo from '../Assets/logo.png'
 
@@ -14,11 +15,11 @@ export default function Navbar() {
       <div>
         <p className="bg-red-600 py-2 w-auto text-white font-semibold flex px-2 text-lg">
           <MdLocalShipping size={30} className="mr-2"/>
-           <span>FREE DELIVERY {"> > >"}</span> <span className="hidden px-4 md:flex "> CALL OR CHAT TO ORDER: 09150536370</span>
+           <span>FREE DELIVERY {">  >"}</span> <span className="hidden px-4 md:flex "> CALL OR CHAT TO ORDER: 09150536370</span>
 
             
            <MdLocalShipping size={30} className="mr-2 hidden md:flex"/>
-           <span className="hidden md:flex">FREE DELIVERY {"> > >"}</span> <span className="hidden px-4 md:flex "> CALL OR CHAT TO ORDER: 09150536370 | WITHIN JOS</span>
+           <span className="hidden md:flex">FREE DELIVERY {">  >"}</span> <span className="hidden px-4 md:flex "> CALL OR CHAT TO ORDER: 09150536370 | WITHIN JOS & BUKURU</span>
         </p>
       </div>
       <nav className="  text-black">
@@ -29,23 +30,41 @@ export default function Navbar() {
               <img src={logo} alt="shopping hub logo" className="h-10 " />
             </div>
             <div>
-              <input type="text" placeholder="Search for products, brands, categories . . ."
-              className="border-2 py-2 px-24 hidden md:flex"
-              />
+
+            <h1 className=' font-medium  md:text-2xl'>
+                        <p style={{ color: 'orange', fontWeight: '' }} >
+                        <Typewriter
+                            words={[
+                              'Get all you want here . .  . Get all you want here . .  .', 
+                              ' Get all you want here . .  .', 
+                              'Get all you want here . .  .', 
+                              'Get all you want here . .  .', 
+                              'Get all you want here . .  .' ]}
+                            loop={0} // loop the animation 5 times, or set it to 0 for infinite
+                            cursor
+                            cursorStyle="|"
+                            typeSpeed={80}
+                            deleteSpeed={50}
+                            delaySpeed={1500}
+                        />
+                        </p>
+                </h1> 
+
+
             </div>
             {/* Desktop Menu */}
-            <div className="hidden md:flex space-x-4">
-              <a href="/" className="hover:bg-gray-700 px-3 py-2 rounded-md">
-                Home
+            <div className="hidden md:flex space-x-4 font-medium ">
+              <a href="/" className="hover:bg-gray-100 text-gray-500 px-3 py-2 rounded-md">
+               NEW ARRIVALS
               </a>
-              <a href="/" className="hover:bg-gray-700 px-3 py-2 rounded-md">
-                About
+              <a href="/" className="hover:bg-gray-100 text-gray-500 px-3 py-2 rounded-md">
+               TOP DEALS
               </a>
-              <a href="/" className="hover:bg-gray-700 px-3 py-2 rounded-md">
-                Services
+              <a href="/" className="hover:bg-gray-100 text-gray-500 px-3 py-2 rounded-md">
+                SUPPORT
               </a>
-              <a href="/" className="hover:bg-gray-700 px-3 py-2 rounded-md">
-                Contact
+              <a href="/" className="hover:bg-gray-100 text-gray-500 px-3 py-2 rounded-md">
+               PARTNER WITH US
               </a>
             </div>
            

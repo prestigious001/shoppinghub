@@ -9,7 +9,7 @@ export default function Provisiondeals() {
   return (
     <div >
         
-        <h1 className='text-lg font-semibold text-center py-1'>Groceries Deals</h1> 
+        <h1 className='text-lg font-semibold text-center py-1 mt-4'>Groceries Deals</h1> 
         <div className='overflow-x-auto whitespace-nowrap mx-4 gap-4 flex'>
         {ProvisionListing.map((item => ( 
             <div key={item.id} >
