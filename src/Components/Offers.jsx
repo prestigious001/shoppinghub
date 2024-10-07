@@ -9,11 +9,11 @@ export default function Offer() {
   return (
     <div >
         
-        <h1 className='text-lg font-semibold text-center mt-8'>Top Offer's</h1> 
-        <div className='overflow-x-auto whitespace-nowrap space-x-4 flex'>
+        <h1 className='text-lg font-semibold text-center mt-8 '>Top Offer's</h1> 
+        <div className='overflow-x-auto whitespace-nowrap mx-4 gap-4  flex'>
         {offerListings.map((item => ( 
             <div key={item.id} >
-               <div   className='bg-slate-100 rounded-md w-36 p-2 my-3 flex flex-col justify-center shadow-lg relative '>
+               <div   className='bg-slate-100 rounded-md w-36 p-2 my-3 flex flex-col justify-center shadow-lg relative hover:scale-105'>
                 <span className='bg-orange-100 text-orange-600 w-10 absolute right-0 top-0 font-medium rounded-lg flex justify-center'>{item.discount}</span>
                 <img src={item.image}className='h-20' alt="" />
                 <p className='mt-2'>{item.productdescription}</p>

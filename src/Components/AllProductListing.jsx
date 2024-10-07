@@ -53,7 +53,7 @@ const AllProductListing = () => {
                  {paginatedData.length > 0 ? (
                    paginatedData.map((item) => (
 
-                 <div key={item.id}  className='bg-slate-100 rounded-md w-36 p-2 my-3 flex flex-col justify-center shadow-lg relative'>
+                 <div key={item.id}  className='bg-slate-100 rounded-md w-36 p-2 my-3 flex flex-col justify-center shadow-lg relative hover:scale-105'>
                     <span className='bg-orange-100 text-orange-600 w-10   absolute right-0 top-0 font-medium flex justify-center'>{item.discount}</span>
                     <img src={item.image}className='h-20' alt="" />
                     <p className='mt-2'>{item.productdescription}</p>

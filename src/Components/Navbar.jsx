@@ -22,11 +22,11 @@ export default function Navbar() {
         </p>
       </div>
       <nav className="  text-black">
-        <div className="w-auto md:mx-auto ">
+        <div className="w-auto md:mx-4">
           <div className="flex justify-between items-center h-16">
             <div className="flex-shrink-0">
               {/* <h1 className="text-xl font-bold">MyWebsite</h1> */}
-              <img src={logo} alt="shopping hub logo" className="h-10" />
+              <img src={logo} alt="shopping hub logo" className="h-10 " />
             </div>
             <div>
               <input type="text" placeholder="Search for products, brands, categories . . ."
@@ -53,7 +53,7 @@ export default function Navbar() {
             <div className="flex md:hidden">
               <button
                 onClick={toggleMenu}
-                className="text-black  focus:outline-none mr-8"
+                className="text-black  focus:outline-none mr-4"
               >
                 <svg
                   className="w-6 h-6"

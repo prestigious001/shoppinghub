@@ -8,6 +8,8 @@ import Offer from '../Components/Offers'
 import GadgetListings from '../Components/Gadgetdeals'
 import Provisiondeals from '../Components/Provisionsdeals'
 import Footer from '../Components/Footer'
+import Fragance from '../Components/Fragance'
+import Newsletter from '../Components/Newsletter'
 
 export default function Home() {
   return (
@@ -20,6 +22,8 @@ export default function Home() {
         <Offer/>
         <GadgetListings/>
         <Provisiondeals/>
+        <Fragance/>
+        <Newsletter/>
         <Footer/>
     </div>
   )
