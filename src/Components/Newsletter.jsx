@@ -8,11 +8,11 @@ export default function Newsletter() {
     <h1 className='font-bold text-center text-lg'>Join our Newsletter</h1>
     <h2 className='text-center tracking-wider'>Be the first to get latest and great offers from us by subscribing to our newsletter</h2>
     <h2 className='text-center font-bold text-lg md:text-2xl text-gray-600'>Join 100+ Happy Subscribers.</h2>
-    <div className='flex justify-center'>
+    <div className='flex justify-center p-4'>
         <form action="" method="post">
-            <input type="text" placeholder='Enter your fullname' className='border-2 border-gray-500 rounded-md outline-none placeholder-gray-400 placeholder:p-4  h-10 m-2' />
-            <input type="email" placeholder='Enter your email' className='border-2 border-gray-500 rounded-md outline-none placeholder-gray-400 placeholder:p-4  h-10 m-2' /> 
-            <button type='submit' className='bg-orange-500 text-white hover:text-black h-10 px-6 rounded-md ml-36 md:ml-4'>JOIN NOW</button>
+            <input type="text" placeholder='Enter your fullname' className='border-2 border-gray-300 rounded-md outline-none w-full placeholder-gray-400 placeholder:p-4  h-10 m-2' />
+            <input type="email" placeholder='Enter your email' className='border-2 border-gray-300 rounded-md outline-none w-full placeholder-gray-400 placeholder:p-4  h-10 m-2' /> 
+            <button type='submit' className='bg-orange-500 text-white hover:text-black h-10 px-6 rounded-md w-full md:ml-4 font-semibold'>JOIN NOW</button>
         </form>
     </div>
     </div>

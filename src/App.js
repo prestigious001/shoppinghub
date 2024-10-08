@@ -3,6 +3,9 @@ import Navbar from './Components/Navbar';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import 'animate.css/animate.min.css';
 import Home from './Pages/Home';
+
+
+
 // import Popup from './Components/Popups';
 
 function App() {

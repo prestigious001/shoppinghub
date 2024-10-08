@@ -10,25 +10,25 @@ export default function Footer() {
         </a>
 
         <div className='text-gray-400 grid grid-cols-3 text-sm font-semibold ml-4 md:flex md:flex-row gap-6 md:mt-2 justify-evenly' >
-          <a href="/">
+          <a href="https://wa.link/vpgifv">
           CHAT WITH US
           </a>
-          <a href="/">
+          <a href="https://wa.link/vpgifv">
           REPORT 
           </a>
-          <a href="/">
+          <a href="https://wa.link/vpgifv">
          TERMS & CONS
           </a>
-          <a href="/">
+          <a href="https://wa.link/vpgifv">
           HELP CENTER
           </a>
-          <a href="/">
+          <a href="https://wa.link/vpgifv">
           PARTNER
           </a>
           {/* <a href="/">
          MAKE INQUERY
           </a> */}
-          <a href="/">
+          <a href="https://wa.link/vpgifv">
          SUGGESTIONS
           </a>
         </div>

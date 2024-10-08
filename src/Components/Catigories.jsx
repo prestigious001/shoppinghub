@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Catigories() {
   return (
-    <div className='flex p-2 space-x-4 md:justify-center w-full overflow-x-auto whitespace-nowrap'>
-        <div className="newarrivals bg-slate-100 py-4  px-8 rounded-md text-orange-400 font-bold">
+    <div className='flex p-2 space-x-2 md:justify-center w-full overflow-x-auto whitespace-nowrap'>
+        <div className="newarrivals bg-slate-100 py-2  px-8 rounded-md text-orange-400 font-bold">
             <span>
                 NEW ARRIVALS
             </span>

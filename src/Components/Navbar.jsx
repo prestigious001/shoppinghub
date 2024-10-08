@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { MdLocalShipping } from "react-icons/md";
 import { Typewriter } from "react-simple-typewriter";
-// import { NavLink } from "react-router-dom";
 import logo from '../Assets/logo.png'
+// import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,11 +15,11 @@ export default function Navbar() {
       <div>
         <p className="bg-red-600 py-2 w-auto text-white font-semibold flex px-2 text-lg">
           <MdLocalShipping size={30} className="mr-2"/>
-           <span>FREE DELIVERY {">  >"}</span> <span className="hidden px-4 md:flex "> CALL OR CHAT TO ORDER: 09150536370</span>
+           <span>FREE DELIVERY {">  >"}</span> <span className="hidden px-4 md:flex "> CALL OR CHAT TO ORDER: 091 290 36 128</span>
 
             
            <MdLocalShipping size={30} className="mr-2 hidden md:flex"/>
-           <span className="hidden md:flex">FREE DELIVERY {">  >"}</span> <span className="hidden px-4 md:flex "> CALL OR CHAT TO ORDER: 09150536370 | WITHIN JOS & BUKURU</span>
+           <span className="hidden md:flex">FREE DELIVERY {">  >"}</span> <span className="hidden px-4 md:flex "> CALL OR CHAT TO ORDER: 091 290 36 128 | WITHIN JOS & BUKURU</span>
         </p>
       </div>
       <nav className="  text-black">
@@ -57,13 +57,15 @@ export default function Navbar() {
               <a href="/" className="hover:bg-gray-100 text-gray-500 px-3 py-2 rounded-md">
                NEW ARRIVALS
               </a>
+
+              {/* <NavLink></NavLink> */}
               <a href="/" className="hover:bg-gray-100 text-gray-500 px-3 py-2 rounded-md">
                TOP DEALS
               </a>
-              <a href="/" className="hover:bg-gray-100 text-gray-500 px-3 py-2 rounded-md">
+              <a href="https://wa.link/vpgifv" className="hover:bg-gray-100 text-gray-500 px-3 py-2 rounded-md">
                 SUPPORT
               </a>
-              <a href="/" className="hover:bg-gray-100 text-gray-500 px-3 py-2 rounded-md">
+              <a href="https://wa.link/vpgifv" className="hover:bg-gray-100 text-gray-500 px-3 py-2 rounded-md">
                PARTNER WITH US
               </a>
             </div>
@@ -134,7 +136,7 @@ export default function Navbar() {
 
             <div className="">
               <p className="px-2 bg-black text-white justify-evenly font- tracking-wider md:hidden">
-                <span>CALL TO ORDER: 09150536370</span>               
+                <span>CALL OR CHAT TO ORDER : 091 290 36 128</span>               
               </p>
             </div>
       </nav>

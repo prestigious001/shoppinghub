@@ -61,7 +61,10 @@ const AllProductListing = () => {
                         <span className='font-bold mr-2'>{item.oldprice} </span>
                         <span className='line-through text-gray-500'> {item.currentprice}</span>
                     </div>
-                    <button className='bg-orange-400 font-semibold text-white px-6 py-1 mt-2 rounded-md hover:text-black'>BUY NOW</button>
+                    <a href="https://wa.link/vpgifv">
+             <button className='bg-orange-400 font-semibold text-white px-6 py-1 mt-2 rounded-md hover:text-black'>BUY NOW</button>
+                    </a>
+
                   </div>
 
 
@@ -74,7 +77,7 @@ const AllProductListing = () => {
             </span>
              <button className=" mt-4">
                   <a
-                    href="https://wa.link/q76mdk"
+                    href="https://wa.link/vpgifv"
                     className="
                     
                     bg-orange-500 text-white p-2
@@ -100,7 +103,7 @@ const AllProductListing = () => {
           </button>
 
           <span className="text-gray-500">
-             <strong className='font-mono'>Page</strong> {currentPage} of {totalPages}
+             <strong className='font-mono'></strong> {currentPage} / {totalPages}
           </span>
             
           <button
