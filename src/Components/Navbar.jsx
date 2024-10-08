@@ -19,7 +19,7 @@ export default function Navbar() {
 
             
            <MdLocalShipping size={30} className="mr-2 hidden md:flex"/>
-           <span className="hidden md:flex">FREE DELIVERY {">  >"}</span> <span className="hidden px-4 md:flex "> CALL OR CHAT TO ORDER: 091 290 36 128 | WITHIN JOS & BUKURU</span>
+           <span className="hidden md:flex">FREE DELIVERY {">  >"}</span> <span className="hidden px-4 md:flex "> CALL OR CHAT TO ORDER: 091 290 36 128 | WITHIN JOS</span>
         </p>
       </div>
       <nav className="  text-black">
@@ -62,10 +62,10 @@ export default function Navbar() {
               <a href="/" className="hover:bg-gray-100 text-gray-500 px-3 py-2 rounded-md">
                TOP DEALS
               </a>
-              <a href="https://wa.link/vpgifv" className="hover:bg-gray-100 text-gray-500 px-3 py-2 rounded-md">
+              <a href="https://wa.link/kp1lwl" className="hover:bg-gray-100 text-gray-500 px-3 py-2 rounded-md">
                 SUPPORT
               </a>
-              <a href="https://wa.link/vpgifv" className="hover:bg-gray-100 text-gray-500 px-3 py-2 rounded-md">
+              <a href="https://wa.link/kp1lwl" className="hover:bg-gray-100 text-gray-500 px-3 py-2 rounded-md">
                PARTNER WITH US
               </a>
             </div>
@@ -136,7 +136,10 @@ export default function Navbar() {
 
             <div className="">
               <p className="px-2 bg-black text-white justify-evenly font- tracking-wider md:hidden">
-                <span>CALL OR CHAT TO ORDER : 091 290 36 128</span>               
+                <a href="https://wa.link/kp1lwl">
+                    <span>CALL OR CHAT TO ORDER : 091 290 36 128</span>
+                </a>
+                           
               </p>
             </div>
       </nav>

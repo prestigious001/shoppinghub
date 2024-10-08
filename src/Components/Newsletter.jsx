@@ -10,9 +10,9 @@ export default function Newsletter() {
     <h2 className='text-center font-bold text-lg md:text-2xl text-gray-600'>Join 100+ Happy Subscribers.</h2>
     <div className='flex justify-center p-4'>
         <form action="" method="post">
-            <input type="text" placeholder='Enter your fullname' className='border-2 border-gray-300 rounded-md outline-none w-full placeholder-gray-400 placeholder:p-4  h-10 m-2' />
-            <input type="email" placeholder='Enter your email' className='border-2 border-gray-300 rounded-md outline-none w-full placeholder-gray-400 placeholder:p-4  h-10 m-2' /> 
-            <button type='submit' className='bg-orange-500 text-white hover:text-black h-10 px-6 rounded-md w-full md:ml-4 font-semibold'>JOIN NOW</button>
+            <input type="text" placeholder='Enter your fullname' className='border-2 border-gray-300 rounded-md outline-none w-full placeholder-gray-400 placeholder:p-4  h-10 my-2' />
+            <input type="email" placeholder='Enter your email' className='border-2 border-gray-300 rounded-md outline-none w-full placeholder-gray-400 placeholder:p-4  h-10 my-2' /> 
+            <button type='submit' className='bg-orange-500 text-white hover:text-black h-10  rounded-md w-full  font-semibold'>JOIN NOW</button>
         </form>
     </div>
     </div>

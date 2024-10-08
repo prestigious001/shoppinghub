@@ -21,7 +21,7 @@ export default function Gadgetdeals() {
                     <span className='font-bold mr-2'>{item.oldprice} </span>
                     <span className='line-through text-gray-500'> {item.currentprice}</span>
                 </div>
-                <a href="https://wa.link/vpgifv">
+                <a href="https://wa.link/kp1lwl">
               <button className='bg-orange-400 font-semibold text-white px-6 py-1 mt-2 rounded-md hover:text-black'>BUY NOW</button>
                 </a>      
              </div>

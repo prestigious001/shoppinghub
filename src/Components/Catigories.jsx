@@ -1,9 +1,14 @@
 import React from 'react'
+// import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+// import { NavLink } from 'react-router-dom'
 
 export default function Catigories() {
   return (
     <div className='flex p-2 space-x-2 md:justify-center w-full overflow-x-auto whitespace-nowrap'>
-        <div className="newarrivals bg-slate-100 py-2  px-8 rounded-md text-orange-400 font-bold">
+        <div className="newarrivals bg-slate-100 py-4  px-8 rounded-md text-orange-400 font-bold">
+            {/* <NavLink to="/">
+                Click Me
+            </NavLink> */}
             <span>
                 NEW ARRIVALS
             </span>
