@@ -137,7 +137,7 @@ export default function Navbar() {
             <div className="">
               <p className="px-2 bg-black text-white justify-evenly font- tracking-wider md:hidden">
                 <a href="https://wa.link/kp1lwl">
-                    <span>CALL OR CHAT TO ORDER : 091 290 36 128</span>
+                    <span className="text-sm">CALL OR CHAT TO ORDER : 091 290 36 128</span>
                 </a>
                            
               </p>

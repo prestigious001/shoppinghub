@@ -53,13 +53,13 @@ const AllProductListing = () => {
                  {paginatedData.length > 0 ? (
                    paginatedData.map((item) => (
 
-                 <div key={item.id}  className='bg-slate-100 rounded-md w-36 p-2 my-3 flex flex-col  justify-center shadow-lg relative hover:scale-105'>
+                 <div key={item.id}  className='bg-slate-100 rounded-md w-36 p-2 my-3 flex flex-col items-center justify-center shadow-lg relative hover:scale-105'>
                     <span className='bg-orange-100 text-orange-600 w-10   absolute right-0 top-0 font-medium flex justify-center'>{item.discount}</span>
-                    <img src={item.image}className='h-20' alt="" />
-                    <p className='mt-2'>{item.productdescription}</p>
+                    <img src={item.image}className='h-24 w-24 ' alt="" />
+                    <p className='mt-2 uppercase'>{item.productdescription}</p>
                     <div className='text-sm mt-1'>
-                        <span className='font-bold mr-2'>{item.oldprice} </span>
-                        <span className='line-through text-gray-500'> {item.currentprice}</span>
+                        <span className='font-bold mr-2'> N{item.currentprice} </span>
+                        <span className='line-through text-gray-500'> {item.oldprice}</span>
                     </div>
                     <a href="https://wa.link/kp1lwl">
              <button className='bg-orange-400 font-semibold text-white px-6 py-1 mt-2 rounded-md hover:text-black'>BUY NOW</button>
@@ -97,7 +97,7 @@ const AllProductListing = () => {
           <button
             onClick={() => handlePageChange('prev')}
             disabled={currentPage === 1}
-            className={`px-2 py-1 rounded-lg text-xs ${currentPage === 1 ? 'bg-gray-300' : 'bg-orange-500 text-white hover:bg-orange-100 hover:text-black'} transition-colors`}
+            className={`px-2 py-1 rounded-lg text-xs ${currentPage === 1 ? 'bg-orange-200' : 'bg-orange-500 text-white hover:bg-orange-100 hover:text-black'} transition-colors`}
           >
             PREV
           </button>
@@ -109,7 +109,7 @@ const AllProductListing = () => {
           <button
             onClick={() => handlePageChange('next')}
             disabled={currentPage === totalPages}
-            className={`px-2 py-1 rounded-lg text-xs ${currentPage === totalPages ? 'bg-gray-300' : 'bg-orange-500 text-white  hover:text-black'} transition-colors`}
+            className={`px-2 py-1 rounded-lg text-xs ${currentPage === totalPages ? 'bg-orange-200' : 'bg-orange-500 text-white  hover:text-black'} transition-colors`}
           >
             NEXT
           </button>
