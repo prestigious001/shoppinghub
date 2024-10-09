@@ -79,7 +79,7 @@ import wristwatch from '../Assets/wristwatch.jpg'
     { 
       id:8,
       image: nikewhitesheo, 
-      productdescription: 'nike  shoe',
+      productdescription: 'nike shoe',
       currentprice: '26,000',
       // oldprice: '300,000',
       // discount :'-10%'   
