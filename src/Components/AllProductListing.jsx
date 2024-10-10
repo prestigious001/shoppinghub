@@ -58,7 +58,7 @@ const AllProductListing = () => {
                     <img src={item.image}className='h-24 w-24 ' alt="" />
                     <p className='mt-2 uppercase'>{item.productdescription}</p>
                     <div className='text-sm mt-1'>
-                        <span className='font-bold mr-2'> N{item.currentprice} </span>
+                        <span className='font-bold mr-2'> ₦{item.currentprice} </span>
                         <span className='line-through text-gray-500'> {item.oldprice}</span>
                     </div>
                     <a href="https://wa.link/kp1lwl">
