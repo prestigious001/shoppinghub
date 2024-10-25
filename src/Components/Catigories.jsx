@@ -12,6 +12,7 @@ export default function Catigories() {
             <span>
                 NEW ARRIVALS
             </span>
+            
         </div>
         <div className="newarrivals bg-slate-100 py-4  px-8  rounded-md text-orange-400 font-bold">
             <span>

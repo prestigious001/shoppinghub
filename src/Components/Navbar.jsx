@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { MdLocalShipping } from "react-icons/md";
 import { Typewriter } from "react-simple-typewriter";
 import logo from '../Assets/logo.png'
+import { NavLink } from "react-router-dom";
 // import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
@@ -14,11 +15,11 @@ export default function Navbar() {
     <div>
       <div>
         <p className="bg-red-600 py-2 w-auto text-white font-semibold flex px-2 text-lg">
-          <MdLocalShipping size={30} className="mr-2"/>
+          <MdLocalShipping size={30} className="mr-2 animate-pulse"/>
            <span>FREE DELIVERY {">  >"}</span> <span className="hidden px-4 md:flex "> CALL OR CHAT TO ORDER: 091 290 36 128</span>
 
             
-           <MdLocalShipping size={30} className="mr-2 hidden md:flex"/>
+           <MdLocalShipping size={30} className="mr-2 hidden md:flex "/>
            <span className="hidden md:flex">FREE DELIVERY {">  >"}</span> <span className="hidden px-4 md:flex "> CALL OR CHAT TO ORDER: 091 290 36 128 | WITHIN JOS</span>
         </p>
       </div>
@@ -35,11 +36,11 @@ export default function Navbar() {
                         <p style={{ color: 'orange', fontWeight: '' }} >
                         <Typewriter
                             words={[
-                              'Get all you want here . .  . Get all you want here . .  .', 
-                              ' Get all you want here . .  .', 
-                              'Get all you want here . .  .', 
-                              'Get all you want here . .  .', 
-                              'Get all you want here . .  .' ]}
+                              'Get all you want here ', 
+                              ' Get all you want here ', 
+                              'Get all you want here ', 
+                              'Get all you want here ', 
+                              'Get all you want here ' ]}
                             loop={0} // loop the animation 5 times, or set it to 0 for infinite
                             cursor
                             cursorStyle="|"
@@ -57,6 +58,7 @@ export default function Navbar() {
               <a href="/" className="hover:bg-gray-100 text-gray-500 px-3 py-2 rounded-md">
                NEW ARRIVALS
               </a>
+              <NavLink to="/Newarr"></NavLink>
 
               {/* <NavLink></NavLink> */}
               <a href="/" className="hover:bg-gray-100 text-gray-500 px-3 py-2 rounded-md">

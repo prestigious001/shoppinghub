@@ -38,7 +38,7 @@ export default function ProductSlide() {
   };
 
   useEffect(() => {
-    const interval = setInterval(nextSlide, 10000); // Change slide every 20 seconds
+    const interval = setInterval(nextSlide, 5000); // Change slide every 20 seconds
     return () => clearInterval(interval); // Cleanup on unmount
   }, []);
 

@@ -48,8 +48,7 @@ const AllProductListing = () => {
 
 
 
- <div className=" gap- grid grid-cols-2 md:grid md:grid-cols-8 mt-4">
-
+ <div className=" grid grid-cols-2 md:grid md:grid-cols-8  lg:space-x-1 mt-4">
                  {paginatedData.length > 0 ? (
                    paginatedData.map((item) => (
 

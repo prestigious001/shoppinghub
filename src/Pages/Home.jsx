@@ -10,11 +10,13 @@ import Provisiondeals from '../Components/Provisionsdeals'
 import Footer from '../Components/Footer'
 import Fragance from '../Components/Fragance'
 import Newsletter from '../Components/Newsletter'
+// import Progress from '../Components/Progress'
 
 export default function Home() {
   return (
     <div>
         <ProductSlide/>
+        {/* <Progress/> */}
         <Catigories/>
         <AllProductListing/>
         <Sponsored/>
@@ -25,6 +27,7 @@ export default function Home() {
         <Fragance/>
         <Newsletter/>
         <Footer/>
+
     </div>
   )
 }

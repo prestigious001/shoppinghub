@@ -1,5 +1,5 @@
 // import shoe from '../Assets/nike.png';
-import oil from '../Assets/oil.jpg'
+import oil from '../Assets/oil.jpg';
 
  const Listingproducts = [
     { 
